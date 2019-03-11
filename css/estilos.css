@@ -1,0 +1,384 @@
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Dancing Script;
+    background: black;
+    -webkit-animation: entrada 1s;
+    
+}
+
+header{
+
+    /*position: relative;*/
+    display: flex;
+    flex-wrap: wrap;
+    background: #5b7989;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    
+    
+}
+
+
+
+
+@-webkit-keyframes entrada { from { margin-top: -5%; } to { margin-top: -0%; }  }
+        @keyframes entrada { from { margin-top: 150%; } to { margin-top: -5%; }  }
+
+/*@-webkit-keyframes entrada{
+    
+    from{
+        
+     margin-top: 150%;
+        
+    }
+    to{
+        
+     margin-top: -5%; 
+       
+        
+        
+    }
+    
+}
+*/
+ 
+
+.contenedor{
+    
+    width: 100%;
+    margin: auto;
+    
+ 
+
+ 
+        
+        
+    
+    
+    
+}
+
+
+.contenedor h1{
+    
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 3px  #02010a;
+    
+}
+
+.contenedor h1, nav {
+    /*position: relative;*/
+    margin: auto;
+
+ 
+    
+    
+    
+    
+    
+}
+
+
+nav a{
+
+    color: #fff; 
+    margin: 5px;
+    font-size: 25px;
+    
+    
+    
+    
+    
+    
+}
+
+
+#inicio, #pisajes, #retratos{
+    
+    
+text-decoration:none;      
+    
+    
+}
+
+#fonfo-imagen-prinsipal{
+    
+    width: 100%;
+    /*height: 300px;*/
+    
+    background: #82c3a6;
+   
+    
+    
+    
+    
+    
+    
+}
+
+#fonfo-imagen-prinsipal  img{
+  
+
+    display: block;
+    width: 80%;
+    max-height: 500px;
+    padding: 30px;
+    margin: auto;
+    
+   
+
+    
+    
+}
+
+#fonfo-imagenes-secundarias{
+    
+    width: 100%;
+    background: #d5c75f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    
+}
+
+
+
+#Imgen-secundaria-izquierda, #Imgen-secundaria-derecha{ 
+    
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    transition: 1s;
+
+    
+    
+}
+
+.imagenes-paisajes {
+    
+    
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;    
+    
+    
+    
+    
+    
+}
+
+#imagenes-galeria{
+    
+    width: 100%;
+    background: #d5c75f;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 30px;
+    
+    
+    
+    
+}
+#Imgen-secundaria-izquierda:hover {
+    
+    transform: rotatez(10deg);
+    
+    
+}
+
+#Imgen-secundaria-derecha:hover {
+    
+    transform: translateX(20px) translateY(-5px);
+    
+    
+    
+}
+
+
+
+
+#fonfo-imagenes-secundarias h2{
+    
+    margin: auto;
+    text-align: center;
+   
+    
+    text-decoration: underline;
+    
+    
+    
+    
+}
+
+#imagenes-galeria img:nth-child(1){
+    
+    
+-webkit-filter: blur(10px);
+ 
+    
+
+}
+
+#imagenes-galeria img:nth-child(2n){
+    
+    
+-webkit-filter: grayscale(100%);
+ 
+    
+
+}
+
+#imagenes-galeria img:nth-child(3){
+    
+    
+-webkit-filter: sepia(90%);
+ 
+    
+
+}
+
+
+
+footer{
+    
+    width: 100%;
+    
+    background: #C6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    
+}
+
+#titulo-2{
+    
+    padding-bottom: 30px;
+
+    
+    
+    
+}
+.pie-pag{
+    width: 250px;
+    
+    
+    font-size: 20px;
+    text-align:left;
+    
+    
+    
+}
+.pie-pag a{
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+
+    
+    
+    
+}
+
+H3{
+    text-align: left;
+}
+
+/*nav a:selected{
+    
+    
+text-decoration:none;    
+    
+    
+}*/
+
+
+
+@media(min-width:480px){
+    
+    .contenedor{
+    width: 90%;
+    
+    
+ 
+        
+        
+    
+    
+    
+}
+    
+    #Imgen-secundaria-izquierda, #Imgen-secundaria-derecha{
+    
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+    
+    
+}
+    
+    h1{
+        
+        padding-bottom: 15px;
+            
+ 
+}
+    
+.imagenes-paisajes {
+    
+    
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;    
+    
+    
+    
+    
+    
+}    
+ 
+.pie-pag{
+    width: 250px;
+    
+    
+    font-size: 20px;
+    text-align:center;
+    
+    
+    
+}
+    
+H3{
+    text-align: center;
+}    
+    
+}
+
+
+
+
+      
